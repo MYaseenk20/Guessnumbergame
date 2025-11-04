@@ -1,10 +1,10 @@
-import { View,Button } from "react-native";
+import { View,Button,Text } from "react-native";
 function PrimaryButton({children}){
-    return <View>
+    return (<View>
         <Text>
             {children}
         </Text>
-    </View>
+    </View>);
 }
 
 export default PrimaryButton;
